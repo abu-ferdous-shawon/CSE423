@@ -19,7 +19,6 @@ def new_coordinates(x_axis, y_axis):
     b = (500/2) - y_axis
     return a,b
 
-
 def keyboardListener(key, x, y):
     global space
     if key == b' ':
